@@ -17,7 +17,7 @@ FILE  fp;
 	
 	sub1();
 	
-	sub2(argv[2]);
+	sub2(file_name);
 	
 	fclose(fp);
 	
