@@ -6,7 +6,7 @@ void sub2(char *);
 
 char *file_name;
 int main(int argc, char *argv[]){
-FILE  fp;
+FILE  *fp;
 	
 	file_name = getenv("TEST_FILE_NAME");
 	
