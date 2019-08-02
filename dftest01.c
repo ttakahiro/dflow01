@@ -12,6 +12,14 @@ int main(int argc, char *argv[]){
 	printf("getenv done\n");
 	
 	fopen(file_name, "r");
+
+	
+	sub1();
+	
+	sub2(argv[2]);
+	
+	fopen("File_OPen", "r");
+	
 	
 	return 0;
 }
