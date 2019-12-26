@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include "myhead.h"
 void sub1(void);
 void sub2(char *);
 
