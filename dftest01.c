@@ -5,12 +5,7 @@
 void sub1(void);
 void sub2(char *);
 
-typedef struct {
-    int  Order;
-    int  Date;
-}OrderStr;
-char *file_name;
-OrderStr  OneOrder;
+
 int main(int argc, char *argv[]){
 FILE  *fp;
     
